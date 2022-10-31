@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/digitallock/b_door_lock.xst" -ofn "C:/Xilinx/digitallock/b_door_lock.syr" 

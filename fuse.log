@@ -1,0 +1,34 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Xilinx/digitallock/t_door_lock_top_isim_beh.exe -prj C:/Xilinx/digitallock/t_door_lock_top_beh.prj work.t_door_lock_top work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Xilinx/digitallock/led7_decoder.v" into library work
+Analyzing Verilog file "C:/Xilinx/digitallock/state_decoder.v" into library work
+Analyzing Verilog file "C:/Xilinx/digitallock/posedge_detector.v" into library work
+Analyzing Verilog file "C:/Xilinx/digitallock/pass_decoder.v" into library work
+Analyzing Verilog file "C:/Xilinx/digitallock/password_getter_sync.v" into library work
+Analyzing Verilog file "C:/Xilinx/digitallock/LED_blinker.v" into library work
+Analyzing Verilog file "C:/Xilinx/digitallock/door_lock_FSM.v" into library work
+Analyzing Verilog file "C:/Xilinx/digitallock/door_lock_top.v" into library work
+Analyzing Verilog file "C:/Xilinx/digitallock/t_door_lock_top.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Xilinx/digitallock/door_lock_top.v" Line 84: Size mismatch in connection of port <i_binary>. Formal port size is 4-bit while actual signal size is 2-bit.
+Completed static elaboration
+Compiling module password_getter_sync
+Compiling module door_lock_FSM
+Compiling module led7_decoder
+Compiling module pass_decoder
+Compiling module state_decoder
+Compiling module LED_blinker(CLK_IN=500,FREQ_OUT=...
+Compiling module LED_blinker(CLK_IN=500)
+Compiling module posedge_detector
+Compiling module door_lock_top(CLK_IN=500)
+Compiling module t_door_lock_top
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 11 Verilog Units
+Built simulation executable C:/Xilinx/digitallock/t_door_lock_top_isim_beh.exe
+Fuse Memory Usage: 29072 KB
+Fuse CPU Usage: 2202 ms
